@@ -1,0 +1,50 @@
+{
+  "package": "optimax theme",
+  "name": "optimax_theme",
+  "version": "1.0.0",
+  "author": "RadiousTheme",
+  "contact": "",
+  "license": "GNU General Public License v3",
+  "private": true,
+  "description": "",
+  "main": "webpack.config.js",
+  "keywords": [],
+  "homepage": "",
+  "scripts": {
+    "webpack": "cross-env NODE_ENV=development node_modules/.bin/webpack --progress --hide-modules --config=node_modules/wp-mix/setup/webpack.config.js",
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "devns": "cross-env NODE_ENV=developmentNoSourcemap node_modules/.bin/webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "pot": "cross-env NODE_ENV=pot node_modules/.bin/webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "package": "cross-env NODE_ENV=package node_modules/.bin/webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "zip": "cross-env NODE_ENV=zip node_modules/.bin/webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "rtl": "cross-env NODE_ENV=rtl node_modules/.bin/webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "build": "npm run devns && npm run pot && npm run package && npm run zip"
+  },
+  "devDependencies": {
+    "archiver": "^3.0.0",
+    "cli-color": "^1.4.0",
+    "cross-env": "^5.2.0",
+    "emojic": "^1.1.14",
+    "fs-extra": "^7.0.1",
+    "gulp": "^4.0.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-rtlcss": "^1.3.0",
+    "laravel-mix": "^2.1.14",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "node-sass": "^4.10.0",
+    "wp-pot": "^1.6.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "owl.carousel": "^2.3.4",
+    "postcss": "^7.0.18",
+    "postcss-pxtorem": "^4.0.1",
+    "select2": "^4.0.6-rc.1"
+  }
+}
