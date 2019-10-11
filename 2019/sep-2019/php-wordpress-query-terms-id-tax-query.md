@@ -1,3 +1,5 @@
+@wordpress @php
+
 ## for fetching post with tax query
 ~~~php
 // added isset for backward compatibility 

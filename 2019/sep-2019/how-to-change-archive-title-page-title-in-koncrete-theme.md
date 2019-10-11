@@ -1,3 +1,5 @@
+@wordpress @php
+
 # filter 
 =========
 * pre_get_document_title

@@ -1,3 +1,5 @@
+@wordpress @php @css
+
 # how to minify css in php
 ~~~php
   private function minified_css( $css )

@@ -1,2 +1,4 @@
+@typography 
+
 # nice font for reading 
 https://fonts.google.com/specimen/Work+Sans

@@ -1,3 +1,6 @@
+@wordpress @php
+
+# How to add under construction page in wordpress
 ~~~php
 add_action( 'template_include',         [ $this, 'under_construction_mode_enable'], 999 );
 public function under_construction_mode_enable( $template ) {

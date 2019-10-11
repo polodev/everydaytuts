@@ -1,3 +1,5 @@
+@wordpress @php 
+
 # wordpress local time aware date time
 ~~~php
 $unixtimestamp =  get_the_time('U');

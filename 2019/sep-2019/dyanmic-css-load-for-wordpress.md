@@ -1,3 +1,5 @@
+@wordpress @php
+
 # dynamic css loading in wordpress
 ~~~php
   private function dynamic_style()

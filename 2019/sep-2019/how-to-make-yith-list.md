@@ -1,3 +1,5 @@
+@wordpress @php @woocommerce
+
 # yith wishlist 
 first make a page and add following shortcode in page 
 ~~~php

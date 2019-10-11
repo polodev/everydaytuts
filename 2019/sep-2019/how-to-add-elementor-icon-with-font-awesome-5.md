@@ -1,3 +1,5 @@
+@wordpress @php @elementor
+
 # how can we add custom icon alongside font awesome 5
 
 

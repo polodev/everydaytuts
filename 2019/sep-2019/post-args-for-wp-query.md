@@ -1,4 +1,6 @@
-making post args 
+@wordpress @php
+
+# making post args 
 
 ~~~php
 $args = array(

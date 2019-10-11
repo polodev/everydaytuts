@@ -1,3 +1,5 @@
+@js 
+
 # to pause countdown js 
 ~~~php
 setTimeout(function(){

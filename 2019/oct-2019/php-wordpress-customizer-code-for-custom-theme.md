@@ -1,3 +1,5 @@
+@wordpress @php
+
 # 1. Panel
 ~~~php
 $wp_customize->add_panel('kc_theme_styling_panel', array(

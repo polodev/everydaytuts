@@ -1,3 +1,5 @@
+@wordpress @php
+
 # how to get all categories by taxonomy term
 
 ~~~php
