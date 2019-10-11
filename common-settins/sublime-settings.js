@@ -1,0 +1,70 @@
+{
+	"close_windows_when_empty": false,
+	"color_scheme": "Packages/Color Scheme - Default/Sixteen.sublime-color-scheme",
+	"detect_indentation": true,
+	"file_exclude_patterns": [
+    "*.pyc",
+    "*.pyo",
+    "*.exe",
+    "*.dll",
+    "*.obj","*.o",
+    "*.a",
+    "*.lib",
+    "*.so",
+    "*.dylib",
+    "*.ncb",
+    "*.sdf",
+    "*.suo",
+    "*.pdb",
+    "*.idb",
+    ".DS_Store",
+    "*.class",
+    "*.psd",
+    "*.db",
+    "*.sublime-workspace",
+    "*.cssa",
+    "*.jsa",
+    "*.html",
+    "*.dat",
+    "*.svg",
+    "*.pem",
+    "*.json",
+  ],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules",
+		"assetss",
+		"srcs",
+		"koncrete-core-elementor2"
+	],
+	"font_face": "monaco",
+	"font_facea": "fira code",
+	"font_faceb": "ubuntu mono",
+	"font_faced": "operator mono",
+	"font_facem": "monaco nerd font mono",
+	"font_size": 12,
+	"gutter": true,
+	"ignored_packages":
+	[
+		"",
+		"Phpcs"
+	],
+	"line_padding_bottom": 6,
+	"line_padding_top": 6,
+	"rulers":
+	[
+		120,
+		150
+	],
+	"spell_check": true,
+	"tab_size": 2,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": false,
+	"trim_trailing_white_space_on_save": false,
+	"vintage_start_in_command_mode": true,
+	"word_wrap": false
+}

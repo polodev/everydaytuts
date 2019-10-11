@@ -1,0 +1,47 @@
+# git
+alias ga="git add ."
+alias gl="git log"
+alias gc="git commit -m"
+alias gp="git push origin master"
+alias gs="git status"
+alias gcp="git add . && git commit -m '__updated__' && git push origin master";
+alias gcpu="git add . && git commit -m '__updated__' && git push origin ";
+
+# project folder
+alias sites="cd /home/techlabpro14/sites"
+alias siteso="cd /home/techlabpro14/other_sites"
+alias ohtml="cd /home/techlabpro14/sites/ohtml"
+alias opt="cd /home/techlabpro14/sites/optimax/wp-content/themes/optimax"
+alias optp="cd /home/techlabpro14/sites/optimax/wp-content/plugins/optimax-core"
+alias kon="cd /home/techlabpro14/sites/koncrete/wp-content/themes/koncrete"
+alias konp="cd /home/techlabpro14/sites/koncrete/wp-content/plugins/koncrete-core"
+alias allegiant="cd /home/techlabpro14/sites/allegiant/wp-content/themes/allegiant-electric"
+alias tt="cd /home/techlabpro14/sites/teamtaylor/wp-content/themes/team-taylor"
+alias et="cd /home/techlabpro14/everydaytuts"
+
+alias sublc="cd /home/techlabpro14/.config/sublime-text-3/Packages/User"
+alias sublo="subl /home/techlabpro14/.config/sublime-text-3/Packages/User/Snippets"
+
+# others folder
+alias document="cd ~/Documents"
+alias desktop="cd ~/Desktop"
+alias download="cd ~/Downloads"
+alias picture="cd ~/Pictures"
+alias data="cd ~/sites/data"
+alias home="cd ~"
+
+
+# others command 
+alias open="xdg-open"
+alias c="clear"
+alias td="vi ~/todos/todo.md"
+alias tdr="cat ~/todos/todo.md"
+alias pwdc="pwd | xclip -selection clipboard"
+
+# php
+
+alias ashort="php-cs-fixer fix .  --rules='{\"array_syntax\": {\"syntax\": \"short\"}}'"
+alias along="php-cs-fixer fix .  --rules='{\"array_syntax\": {\"syntax\": \"long\"}}'"
+
+# server
+alias rserver="ssh developer@45.33.34.87"
