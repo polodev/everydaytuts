@@ -1,0 +1,13 @@
+alias gs="git status"
+alias bimabd="cd /var/www/bimabd"
+alias sbimabd="cd /var/www/staging_bimabd"
+alias sa="cd /etc/apache2/sites-available"
+alias ra="sudo systemctl restart apache2"
+alias gpull="git pull origin master"
+alias migfs="php artisan migrate:fresh --seed"
+alias art="php artisan"
+alias up="php artisan up"
+alias down="php artisan down"
+alias ac="php artisan config:clear && php artisan cache:clear && php artisan view:clear"
+alias gp="sudo chmod -R 775 /var/www && sudo chmod -R 777 /var/www  && sudo chown -R www-data:www-data /var/www/"
+~                                     
