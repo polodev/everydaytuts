@@ -32,5 +32,7 @@ now paste image on this canvas
 
 Now use free transform tool (`ctrl + t` shortcut) by holding `shift` key.        
 
+# for color overlay
+When we take a new canvas `color mode` should be `rgb` and `resolution` should be `72`
 
 
