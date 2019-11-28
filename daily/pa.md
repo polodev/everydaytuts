@@ -50,7 +50,7 @@ oe--05--omar epps--playing baseball
 os--06--oj simpson--playing nfl
 og--07--james bond--turning and shooting, viewed through gun barrel
 oh--08--oliver hardy--put on a bowler hat
-on--09--oliver north--testifying oath in congressional committe
+on--09--oliver north--testifying oath in congressional committee
 ao--10--Lionel Messi--playing football
 aa--11--amy--adams--praising for 2 times golden globe award
 ab--12--Alec Baldwin--mocking trump in saturday night
