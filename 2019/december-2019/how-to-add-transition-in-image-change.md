@@ -1,3 +1,13 @@
+~~~php
+ $service_image     = get_post_meta( $post->ID, "{$prefix}_service_image", true );
+$service_image_hover_state  = get_post_meta( $post->ID, "{$prefix}_service_image_hover", true );
+$service_image_hover_state  = $service_image_hover_state ? $service_image_hover_state : $service_image;
+if ($service_image) {
+  $thumb           = Helper::generate_thumbnail_image_by_attachment_id($service_image, $thumb_size);
+  $thumb_hover           = Helper::generate_thumbnail_image_by_attachment_id($service_image_hover_state, $thumb_size);
+}
+~~~
+
 # html part
 ~~~html
   <div class="service-icon-image">
