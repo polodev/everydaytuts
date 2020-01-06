@@ -10,6 +10,7 @@ if (get_theme_mod( 'kc_admin_logo' )) {
 background-image: url( <?php echo get_theme_mod( 'kc_admin_logo' ); ?> );
 width: <?php echo get_theme_mod( 'kc_admin_logo_width' ); ?>;
 height: <?php echo get_theme_mod( 'kc_admin_logo_height' ); ?>;
+margin-top: <?php echo get_theme_mod( 'kc_admin_logo_margin_top' ); ?>;
 background-size: contain;
 }
 </style>
@@ -70,6 +71,19 @@ $wp_customize->add_section('kc_admin_section', [
 			'section'  => 'kc_admin_section',
 			'type'     => 'text',
 			'settings' => 'kc_admin_logo_height',
+			'priority' => 11,
+			
+		));
+		// Textbox control
+		$wp_customize->add_setting('kc_admin_logo_margin_top', array(
+			'default' => '20px',
+		));
+
+		$wp_customize->add_control('kc_admin_logo_margin_top', array(
+			'label'    => 'Admin Logo Height',
+			'section'  => 'kc_admin_section',
+			'type'     => 'text',
+			'settings' => 'kc_admin_logo_margin_top',
 			'priority' => 11,
 			
 		));
