@@ -8,16 +8,16 @@ if (get_theme_mod( 'kc_admin_logo' )) {
 <style type="text/css">
 #login h1 a {
 background-image: url( <?php echo get_theme_mod( 'kc_admin_logo' ); ?> );
-width: <?php echo get_theme_mod( 'kc_admin_logo_width' ); ?>;
-height: <?php echo get_theme_mod( 'kc_admin_logo_height' ); ?>;
-margin-top: <?php echo get_theme_mod( 'kc_admin_logo_margin_top' ); ?>;
+width: <?php echo get_theme_mod( 'kc_admin_logo_width', '240px' ); ?>;
+height: <?php echo get_theme_mod( 'kc_admin_logo_height' '80px'); ?>;
+margin-top: <?php echo get_theme_mod( 'kc_admin_logo_margin_top', '20px' ); ?>;
 background-size: contain;
 }
 </style>
 <?php }
 add_action( 'login_enqueue_scripts', 'kc_login_logo' );
 function kc_login_logo_url() {
-return  get_theme_mod( 'kc_admin_logo_url' );
+return  get_theme_mod( 'kc_admin_logo_url', home('/') );
 }
 add_filter( 'login_headerurl', 'kc_login_logo_url' );
 function kc_login_logo_url_title() {
@@ -90,7 +90,7 @@ $wp_customize->add_section('kc_admin_section', [
 
 		// Textbox control
 		$wp_customize->add_setting('kc_admin_logo_url', array(
-			'default' => 'https://wordpress.org/',
+			'default' => home('/'),
 		));
 
 		$wp_customize->add_control('kc_admin_logo_url', array(
